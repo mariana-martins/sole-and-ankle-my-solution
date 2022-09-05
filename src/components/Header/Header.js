@@ -37,14 +37,18 @@ const MainHeader = styled.div`
   height: 72px;
 `;
 
-const Box = styled.div`
-  flex: 1;
-`;
+
 
 const Nav = styled.nav`
   display: flex;
   gap: 48px;
   margin: 0px 48px;
+  flex: 3;
+`;
+
+
+const Box = styled.div`
+  flex: 1;
 `;
 
 const NavLink = styled.a`
